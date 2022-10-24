@@ -10,12 +10,12 @@ class Usuario {
     }
 
     getFullName() {
-        return console.log(`Usuario Completo: ${this.apellido}, ${this.nombre}`);
+        return `Usuario Completo: ${this.apellido}, ${this.nombre}`;
     };
 
     addMascota(nuevaMascota) {
         this.mascotas.push(nuevaMascota);
-        return console.log(this.mascotas);
+        return this.mascotas;
     };
 
     countMascotas() {
@@ -24,11 +24,11 @@ class Usuario {
 
     addBook(nombre, autor) {
         this.libros.push({nombre: nombre, autor: autor});
-        return console.log(this.libros);
+        return this.libros;
     }
 
     getBookNames() {
-        return console.log(this.libros.map((libro) => {return libro.nombre}));
+        return this.libros.map((libro) => {return libro.nombre});
     } 
 };
 
