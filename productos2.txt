@@ -1,0 +1,13 @@
+[
+    {
+        "title": "cuadrado:",
+        "price":100,
+        "thumbnail":"https://www.iconfinder.com/icons/211717/circle_icon",
+        "id": 1
+    }, {
+        "title":"circulo",
+        "price":200,
+        "thumbnail":"https://www.iconfinder.com/icons/211717/circle_icon",
+        "id": 2
+    }
+]
